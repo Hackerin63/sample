@@ -1,63 +1,54 @@
-body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            background: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #ff5733; /* Orange-Red */
-        }
-        ol {
-            background: #ffe0b3; /* Light Orange */
-            padding: 25px;
-            border-radius: 5px;
-            color: #663300; /* Dark Brown */
-        }
-        ul {
-            background: #c2f0c2; /* Light Green */
-            padding: 25px;
-            border-radius: 5px;
-            color: #006600; /* Dark Green */
-        }
-        li {
-            margin: 5px 0;
-        }
-        dl {
-            background: #d9f2ff; /* Light Blue */
-            padding: 15px;
-            border-radius: 5px;
-            color: #004466; /* Dark Blue */
-        }
-        dt {
-            font-weight: bold;
-            color: #0073e6; /* Medium Blue */
-        }
-        dd {
-            margin-left: 20px;
-            color: #003366; /* Darker Blue */
-        }
-       
-            
-            .bu{
-             
-                background-color: #39f039;
-                color: black;
-                padding: 7px 7px;
-                border: 1px solid;
-                border-radius: 10px 10px 10px 10px;
-                text-align: center;
-                display: block;
-                width: 100px;
-                text-decoration: none;
-            }
-            .bu:hover{
-                color: white;
-                background-color: green;
-            }
-        
-       
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists with Colors</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <center><h1  style="color: black;">Implementation of List</h1></center>
+
+<div class="container">
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <h2>Description List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <h2>Nested List</h2>
+    <ul>
+        <li>Fruits
+            <ul>
+                <li style="color: #ff0000;">Apple</li> <!-- Red -->
+                <li style="color: #ffcc00;">Banana</li> <!-- Yellow -->
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li style="color: #ff6600;">Carrot</li> <!-- Orange -->
+                <li style="color: #008000;">Broccoli</li> <!-- Green -->
+            </ul>
+        </li>
+    </ul>
+</div>
+<center><a class="bu" href="ordered list.html">Next</a></center>
+
+</body>
+</html>
